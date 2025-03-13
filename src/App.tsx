@@ -8,6 +8,7 @@ import DashboardLayout from "./layouts/DashboardLayout";
 import Index from "./pages/Index";
 import Services from "./pages/Services";
 import Monitoring from "./pages/Monitoring";
+import Resources from "./pages/Resources";
 import Settings from "./pages/Settings";
 import NotFound from "./pages/NotFound";
 
@@ -24,6 +25,7 @@ const App = () => (
             <Route index element={<Index />} />
             <Route path="services" element={<Services />} />
             <Route path="monitoring" element={<Monitoring />} />
+            <Route path="resources" element={<Resources />} />
             <Route path="settings" element={<Settings />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           </Route>
